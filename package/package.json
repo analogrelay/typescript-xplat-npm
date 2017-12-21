@@ -1,0 +1,20 @@
+{
+  "name": "typescript-xplat-npm",
+  "version": "1.0.0-preview1-t000",
+  "description": "A sample",
+  "main": "lib/mylibrary.js",
+  "types": "lib/mylibrary.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Stanton-Nurse",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "dts-bundle-webpack": "^1.0.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
